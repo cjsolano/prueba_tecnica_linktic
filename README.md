@@ -1,4 +1,4 @@
-# Vue.js Frontend Challenge
+# Frontend Challenge
 
 Este es el test de Frontend Developer con Vue.js. Tiene un tiempo de hasta 1 día para entregar el test resuelto. Por favor, tome en cuenta el tiempo que se demora en resolver el test ya que es probable se le pregunte. Al completarlo, debe subir el código a un repositorio público de GitHub y compartirlo con la persona que le envió el test. 
 
