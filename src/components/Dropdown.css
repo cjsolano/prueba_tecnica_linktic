@@ -1,0 +1,24 @@
+.dropdownContainer {
+    padding: 16px;
+}
+
+.dropdownInput {
+    width: 256px;
+    height: 56px;
+    left: 32px;
+    top: 32px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    /* White */
+    background: #FFFFFF;
+
+    /* Shadow */
+    box-shadow: 0px 10px 15px rgba(35, 78, 82, 0.1);
+    border-radius: 8px;
+}
