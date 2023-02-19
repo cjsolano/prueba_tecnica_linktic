@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 :root {
+    background: #edf2f7;
+    scrollbar-width: none;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #EDF2F7;
-  
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+
+body {
+    scrollbar-width: none;
+    overflow: hidden;
+ }
+
+ ::-webkit-scrollbar {
+    display: none;
 }
