@@ -102,7 +102,7 @@ function Dropdown() {
                         </li> 
                     ))
                     )
-                    : listSearch.length == 0 && <div className="disabled">No items were found.</div>
+                    : listSearch.length == 0 && inputValue.length > 0 && <div className="disabled">No items were found.</div>
                         }
                 </div>
             </div>
