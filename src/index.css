@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+    background: #edf2f7;
+    scrollbar-width: none;
+}
+
+
+
+body {
+    scrollbar-width: none;
+    overflow: hidden;
+ }
+
+ ::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,124 @@
+.dropdwnContainer {
+    position: relative;
+    margin: 32px;
+}
+
+.dropdwnContainer > input {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #1a202c;
+
+    width: 256px;
+    height: 56px;
+
+    /* White */
+    background: #ffffff;
+
+    /* Shadow */
+    box-shadow: 0px 10px 15px rgba(35, 78, 82, 0.1);
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+
+    padding: 16px;
+    padding-right: 56px;
+}
+
+.dropdwnContainer > input::placeholder {
+    color: #a0aec0;
+}
+
+.dropdwnContainer > input:focus {
+    outline: none;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+    display: block;
+    top: 16px;
+    right: 16px;
+
+    user-select: none;
+    cursor: pointer;
+
+    color: #A0AEC0;
+
+    transform: rotate(-0deg);
+    /*transition: transform 0.3s ease-in-out;*/
+}
+
+.up {
+    color: #242D2E;
+    transform: rotate(-180deg);
+    /*transition: transform 0.3s ease-in-out;*/
+}
+
+.dropdown {
+    background: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 10px 15px rgba(35, 78, 82, 0.1);
+    border: none;
+
+    width: 256px;
+    min-height: 56px;
+    max-height: 234px;
+
+    display: none;
+    position: absolute;
+    top: 44px;
+
+    box-sizing: border-box;
+    padding: 16px;
+    
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.active {display: block;}
+
+.list-of-fruits {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.disabled {
+    user-select: none;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #A0AEC0;
+}
+
+.list-of-fruits > li {
+    list-style-type: none;
+    cursor: pointer;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #1A202C;
+}
+
+.list-of-fruits > li:hover {
+    list-style-type: none;
+    cursor: pointer;
+    color: #4299E1;
+}
