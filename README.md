@@ -1,14 +1,11 @@
 # Frontend Challenge
 
+### Dropdown Test Desing
 Cesar Julian Solano Cruz
-
 julianscruz@gmail.com
-
-[REPORT.md](REPORT.md)
 
 ## Demo
 https://demo.d1ehdhye5u6tj.amplifyapp.com/
-
 
 ## Info
 
